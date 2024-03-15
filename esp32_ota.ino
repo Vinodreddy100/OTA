@@ -3,19 +3,19 @@
 #include <HTTPUpdate.h>
 #include <WiFiClientSecure.h>
 #include "cert.h"
+#define LED_BUILTIN 2
 
 const char * ssid = "CNXPRT";
 const char * password = "Cyber@123";
 
-#define LED_BUILTIN 2
-
 
 String FirmwareVer = {
-  "2.0"
+  "2.1"
 };
-#define URL_fw_Version "https://github.com/Vinodreddy100/OTA/blob/main/bin_version.txt"
+#define URL_fw_Version "https://raw.githubusercontent.com/Vinodreddy100/OTA/main/bin_version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/Vinodreddy100/OTA/main/build/esp32.esp32.esp32wrover/esp32_ota.ino.bin"
 
-#define URL_fw_Bin "https://github.com/Vinodreddy100/OTA/blob/main/fw.bin"
+
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
