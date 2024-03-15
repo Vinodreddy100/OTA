@@ -15,7 +15,7 @@ String FirmwareVer = {
 };
 #define URL_fw_Version "https://github.com/Vinodreddy100/OTA/blob/main/bin_version.txt"
 
-#define URL_fw_Bin "https://github.com/Vinodreddy100/OTA/blob/main/build/esp32.esp32.esp32wrover/esp32_ota.ino.bin"
+#define URL_fw_Bin "https://github.com/Vinodreddy100/OTA/blob/main/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
