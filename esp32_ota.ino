@@ -10,7 +10,7 @@ const char * password = "Cyber@123";
 
 
 String FirmwareVer = {
-  "2.6"
+  "2.5"
 };
 #define URL_fw_Version "https://raw.githubusercontent.com/Vinodreddy100/OTA/main/bin_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/Vinodreddy100/OTA/main/build/esp32.esp32.esp32wrover/esp32_ota.ino.bin"
